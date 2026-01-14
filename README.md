@@ -31,8 +31,20 @@ modelos simples "ignorem" quem tem hipertensão por falta de exemplos positivos 
 ## Como executar o projeto
 **Baixar via Https**
 https://github.com/StefanieFranco/ML-Classification-Stroke.git
+
 **Baixar via git**
 git@github.com:StefanieFranco/ML-Classification-Stroke.git
+
+python -m venv .venv
+
+.venv\Scripts\activate
+
+pip install --upgrade pip
+
 pip install -r requirements.txt
+
+
+
+
 
 ## Resultados Obtidos
