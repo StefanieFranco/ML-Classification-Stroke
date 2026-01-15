@@ -1,6 +1,11 @@
 # Nome do Projeto: Tech Challenge - Modelo de Classificação
 
-**Objetivo:** Ecrever aqui
+**Objetivo:** Considerando que, no contexto de AVC, a maioria dos atendimentos resulta em diagnóstico negativo, 
+o modelo de IA será orientado prioritariamente à identificação de pacientes com baixa probabilidade 
+de AVC. Essa abordagem visa otimizar a triagem clínica, reduzindo a fila de espera para os casos 
+com maior suspeita e, consequentemente, agilizando o acesso aos exames de 
+imagem — Tomografia Computadorizada (TC) e Ressonância Magnética (RM) de Crânio — para 
+os pacientes com maior risco.
 
 ## Equipe
 * Marcelo Mendonça Lira - RM369892
@@ -9,13 +14,6 @@
 ## Link do Dataset
 https://www.kaggle.com/datasets/shashwatwork/cerebral-stroke-predictionimbalaced-dataset
 
-## Objetivo
-Considerando que, no contexto de AVC, a maioria dos atendimentos resulta em diagnóstico negativo, 
-o modelo de IA será orientado prioritariamente à identificação de pacientes com baixa probabilidade 
-de AVC. Essa abordagem visa otimizar a triagem clínica, reduzindo a fila de espera para os casos 
-com maior suspeita e, consequentemente, agilizando o acesso aos exames de 
-imagem — Tomografia Computadorizada (TC) e Ressonância Magnética (RM) de Crânio — para 
-os pacientes com maior risco.
 
 ## Análise dos Gráficos (Insights para o Modelo)
 Idade (Age): É o preditor mais forte. Note que o pico de AVC (laranja) ocorre a partir dos 60 anos, 
