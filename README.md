@@ -29,20 +29,23 @@ jupyter notebook
 ## Análise dos Gráficos
 
 <img width="572" height="390" alt="image" src="https://github.com/user-attachments/assets/10696d34-5c66-4ad1-8cfa-c77e60c82f7d" />
+
 Idade (Age): É o preditor mais forte. Note que o pico de AVC (laranja) ocorre a partir dos 60 anos, 
 enquanto os casos negativos estão distribuídos em todas as idades.
 
 <img width="582" height="383" alt="image" src="https://github.com/user-attachments/assets/eaf224fd-ec57-4433-bc26-897d809df213" />
+
 Glicose (avg_glucose_level): Há uma distribuição bimodal. O segundo pico de glicose alta (>200) mostra 
 uma concentração proporcionalmente maior de casos de AVC.
 
 <img width="571" height="374" alt="image" src="https://github.com/user-attachments/assets/ef6b4f51-1aa1-4258-a40c-151a0c27a75c" />
 <img width="573" height="378" alt="image" src="https://github.com/user-attachments/assets/d6cc486f-1484-4da7-ba8b-7e2b45c071ca" />
+
 Desbalanceamento: O gráfico de "hypertension" e "heart_disease" mostra que, embora essas condições 
 aumentem o risco, a vasta maioria da sua base não as possui e não teve AVC. Isso pode fazer com que 
 modelos simples "ignorem" quem tem hipertensão por falta de exemplos positivos suficientes.
 
-## Resultado
+## Resultados Obtidos
 Este estudo buscou desenvolver um modelo de triagem para a identificação de pacientes sob alto risco de AVC. O foco central da modelagem foi a segurança clínica, priorizando a sensibilidade (recall) para minimizar a ocorrência de falsos negativos. Após a avaliação comparativa entre os algoritmos KNN, Random Forest e Regressão Logística, esta última apresentou o desempenho mais robusto e adequado para a aplicação proposta.
 
 Enquanto modelos como o Random Forest apresentaram dificuldades em lidar com o desbalanceamento da classe minoritária, a Regressão Logística obteve um Recall aproximado de 80%. Em um contexto de saúde pública, essa métrica é fundamental, pois garante a identificação de 80% dos casos reais, permitindo intervenções adequadas. Como exemplificado nas imagens abaixo:
@@ -51,12 +54,6 @@ Enquanto modelos como o Random Forest apresentaram dificuldades em lidar com o d
 
 <img width="1481" height="707" alt="image" src="https://github.com/user-attachments/assets/c5061966-0ff8-463f-844f-9a908382e426" />
 
+
 Conclui-se que a Regressão Logística é a ferramenta mais indicada para compor um sistema de apoio à decisão clínica. Sua implementação pode servir como um filtro inicial de triagem, sinalizando pacientes prioritários para avaliação médica detalhada e exames confirmatórios. Lembrando que a ferramenta serve de suporte e não substitui a análise de um médico.
 
-
-
-
-
-
-
-## Resultados Obtidos
